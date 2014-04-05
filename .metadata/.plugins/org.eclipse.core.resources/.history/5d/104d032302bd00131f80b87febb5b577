@@ -1,6 +1,6 @@
 package code;
-
 import java.util.ArrayList;
+import code.GUI;
 
 public class DataModel implements IData_Model {
 	private ArrayList<Task> _list;
@@ -13,7 +13,8 @@ public class DataModel implements IData_Model {
 
 	public void addTask(Task t) {
 		_list.add(t);
-		//_gui.makeNewButton();
+		_gui.makeNewButton();
 	}
+
 
 }

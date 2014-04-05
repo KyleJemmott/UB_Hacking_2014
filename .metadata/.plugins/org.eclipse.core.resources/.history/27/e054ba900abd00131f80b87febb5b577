@@ -3,8 +3,8 @@ package code;
 public class Task implements ITask {
 	private String _name;
 
-	public Task() {
-		
+	public Task(String name) {
+		_name = name;
 	}
 //get task name
 	public String getTaskName() {
