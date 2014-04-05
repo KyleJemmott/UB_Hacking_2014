@@ -8,7 +8,7 @@ public class DataModel implements IData_Model {
 
 	public DataModel() {
 		_taskList= new ArrayList<Task>();
-		_gui = new GUI();
+		_gui = new GUI(this);
 	}
 
 	public boolean addTask(Task t) {

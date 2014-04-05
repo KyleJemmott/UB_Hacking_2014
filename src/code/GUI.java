@@ -36,6 +36,7 @@ public void makeNewButton(String taskName){
 	
 	 JButton button = new TaskButton(taskName,_model);
 	 button.addActionListener(new taskButtonListener());
+	 currentTask = _model.getTask(taskName);
 		 this.add(button);
 	 this.setLayout(new FlowLayout());
 	 
