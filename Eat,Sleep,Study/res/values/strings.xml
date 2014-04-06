@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eat, Sleep, Study</string>
+    <string name="title_task_detail">Track Time</string>
+    <string-array name="Tasks">
+        <item >Eat</item>
+        <item >Sleep</item>
+        <item >Study</item>
+    </string-array>
+
+</resources>

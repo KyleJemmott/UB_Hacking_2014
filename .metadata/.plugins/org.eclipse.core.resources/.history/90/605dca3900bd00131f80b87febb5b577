@@ -1,0 +1,20 @@
+package code;
+import java.util.ArrayList;
+import code.GUI;
+
+public class Task {
+	private ArrayList<String> _list;
+	private code.GUI _gui;
+
+	public Task() {
+		_list = new ArrayList<String>();
+		_gui = new GUI();
+	}
+
+	public void addTask(String s) {
+		_list.add(s);
+		_gui.makeNewButton(s);
+	}
+
+
+}
