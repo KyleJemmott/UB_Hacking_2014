@@ -4,13 +4,15 @@ public class Task implements ITask {
 	private String _name;
 
 	public Task() {
-		
+
 	}
-//get task name
+
+	// get task name
 	public String getTaskName() {
 		return _name;
 	}
-//set class name
+
+	// set class name
 	public void setTaskName(String name) {
 		_name = name;
 	}
